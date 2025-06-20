@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+    <div class="main">
+        <h1>Todo list with Firebase</h1>
+        <form id="form">
+            <input class="inp" type="text" placeholder="enter your name" id="name">
+            <!-- <input class="inp" type="email" placeholder="enter your email" id="email">
+            <input class="inp" type="text" placeholder="enter your age" id="age">
+            <input class="inp" type="text" placeholder="enter your address" id="address"> -->
+            <input class="add" type="submit" value="Add" id="add_btn">
+            <div class="update"></div>
+        </form>
+
+        <div class="cards-box">
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/11.9.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore-compat.js"></script>
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
